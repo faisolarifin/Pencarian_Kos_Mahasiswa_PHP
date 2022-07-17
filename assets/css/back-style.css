@@ -1,0 +1,140 @@
+.bg-header3 {
+	background: linear-gradient(to right, #00707a, #72dce5, #00707a);
+	opacity: 0.9;
+	box-shadow: 0 1px 3px 0 rgba(27,27,27,.1),0 4px 8px 0 rgba(27,27,27,.1);
+}
+.menu ul {
+	top: 61px;
+	min-width: 135px;
+}
+.menu>li:hover ul {
+	height: 130px;
+}
+.table-recicle table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-recicle td, .table-recicle th {
+	border: 1px solid #cdcdcd;
+	padding: 8px;
+	font-family: 'Calibri';
+	font-size: 16px;
+}
+.kos-tbl td {
+	text-align: center;
+}
+.much-detail, .info-detail {
+	width: 100%;
+	margin: 15px 0;
+	border-collapse: collapse;
+}
+.much-detail td {
+	width: 100px;
+	font-family: 'Calibri';
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background-color: #75cdd5;
+	font-size: 20px;
+	border-left: 1px solid #cdcdcd;
+}
+.name-detail tr:nth-child(1) td{
+	background-color: #fff;
+	color: #000;
+	padding-bottom: 15px;
+	border: none;
+	font-size: 30px;
+	font-weight: bold;
+}
+.info-detail {
+	margin: 10px 0;
+	border-collapse: collapse;
+	font-family: 'Calibri';
+}
+.info-detail td, .info-detail th {
+	padding: 10px;
+	border: 1px solid #cdcdcd;
+}
+.judul-detail {
+	float: left;
+	width: 68%;
+	padding: 10px 10px 10px 20px;
+}
+.harga-detail {
+	float: right;
+	width: 25%;
+	text-align: right;
+	padding: 10px 20px 10px 10px;
+	background-color: #8ef486;
+	color: #fff;
+}
+.judul-detail, .harga-detail {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Calibri';
+	margin-bottom: 10px;
+}
+h1.detail {
+	margin: 10px 0;
+}
+.deskripsi, .profile-table td {
+	font-family: 'Calibri';
+	font-size: 16px;
+}
+.col-harga td {
+	width: 80px;
+}
+.profile-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.profile-table td {
+	padding: 10px;
+	/*border: 1px solid #cdcdcd;*/
+}
+.profile-table input, .profile-table select, .profile-table textarea, .input-text {
+	border: 0;
+	border-bottom: 2px solid #eeefff;
+	padding: 5px;
+	width: 70%;
+	font-family: 'Calibri';
+	font-size: 16px;
+}
+.profile-table textarea {
+	max-width: 100%;
+}
+.profile-table input[type=submit] {
+	width: auto;
+	padding: 10px 25px;
+}
+.profile-table input[type=text]:focus, .profile-table textarea:focus, .input-text:focus {
+	border-bottom: 2px solid #8ef486;
+}
+input[type=text], textarea {
+	transition: all 0.5s ease-in-out;
+}
+input[type=file] {
+	border: none;
+}
+#set_image {
+	padding: 0;
+}
+#col_hidden, #col1-hdn {
+	display: none;
+}
+.profile-table .form-harga {
+	width: 18%;
+}
+.fasilitas-box input[type=checkbox]{
+	width: 30px;
+	display: none;
+}
+.fasilitas-box {
+	border: 1px solid #cdcdcd;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+}
+.input-text {
+	width: 30%;
+}

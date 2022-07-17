@@ -1,0 +1,150 @@
+html,body{
+	height: 100%;
+	overflow-x: hidden;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.transisi, input, textarea {
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.row {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 0;
+}
+.contrainer {
+	margin: 4% auto;
+	width: 80%;
+	height: auto;
+}
+
+
+/*form styles*/
+.form  {
+	width: 45%;
+	min-height: 35px;
+	border: 1px solid #d6d9d9;
+	padding-left: 12px;
+	padding-right: 10px;
+	border-radius: 10px;
+	font-family: 'Calibri';
+	font-size: 16px;
+}
+
+input[type=submit], input[type=reset], .button {
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 5px;
+	border: 0;
+	color: #fff;
+}
+
+.login-page {
+	margin: 30px auto;
+	max-width: 47%;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+
+/*footer stylist*/
+.footer-page {
+	position: relative;
+	z-index: 98;
+	width: 100%;
+	height: auto;
+	border: 0;
+	font-family: 'Calibri';
+}
+.footer-page>.top-footer {
+	width: 100%;
+	min-height: 160px;
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: linear-gradient(to right,#0c7166,#34d1bd);
+}
+.footer-page .contrainer {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.footer-page>.bottom-footer {
+	font-family: 'Cuprum';
+	text-align: center;
+	color: #fff;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-color: #212628;
+}
+
+*{
+	box-sizing: border-box;
+}
+input[type=text]:focus, input[type=password]:focus {
+	box-shadow: none;
+}
+.bg-admin {
+	background: url('../image/sumenep.jpg') no-repeat;
+	background-size: cover;
+	background-position: 4px;
+	-webkit-filter: blur(6px);
+	filter: blur(7px);
+	height: 91.8%;
+	transform: scale(1.02); 
+}
+.login-admin {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.login-admin>.contrainer {
+	margin-top: 9%;
+}
+.login-page {
+	padding: 20px;
+	background-color: #ccdfff;
+	opacity: 0.7;
+}
+.image-admin img {
+	width: 100px;
+	margin-top: -20%;
+}
+.image-admin {
+	padding-bottom: 15px;
+}
+.login-page table {
+	width: 100%;
+	text-align: left;
+}
+.login-page label {
+	font-family: 'Signika';
+	font-size: 17px;
+}
+.login-page input[type=text], .login-page input[type=password] {
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px 5px;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	font-size: 15px;
+	font-family: 'Calibri';
+}
+.login-page input[type=text]:focus, .login-page input[type=password]:focus {
+	border-color: #68cfd1;
+}
+.login-page tr:nth-child(3)>td {
+	text-align: center;
+}
+.login-page input[type=submit]{
+	width: 70%;
+	margin-top: 15px;
+	background-color: #44999b;
+}

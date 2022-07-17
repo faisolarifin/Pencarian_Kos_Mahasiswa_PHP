@@ -1,0 +1,14 @@
+.bg-header3 {
+	background: linear-gradient(to right, #a6640e, #41c3c5, #a6640e);
+	opacity: 0.9;
+	box-shadow: 0 1px 3px 0 rgba(27,27,27,.1),0 4px 8px 0 rgba(27,27,27,.1);
+}
+.menu ul {
+	background-color: #ce892f;
+}
+.menu ul li:hover {
+	background-color: #ae6d19;
+}
+.menu li:hover {
+	background-color: #ae6d19;
+}
